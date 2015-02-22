@@ -16,44 +16,61 @@ var JSVFL = require('jsvfl');
 
 var vflParser = new JSVFL();
     
-console.log(vflParser('V:|-[find]-[findNext(200)]-[findField(>=20,<=100)]-|'));
+console.log(vflParser('V:|-[find]-[findNext(200)]-50-[findField(>=20,<=100)]-|'));
 
 /**
   {
     orientation: 1, // ENUM for vertical orientation
     constraints: [{
-      instruction: 'spacing',
-      value: 8
       views: [{
         name: 'superView',
-        sizing: []
+        sizing: [],
+        spacing: {
+          margin: 'bottom',
+          value: 8
+        }
       },
       {
         name: 'find',
-        sizing: []
+        sizing: [],
+        spacing: {
+          margin: 'bottom',
+          value: 8
+        }
       }]
     },
     {
-      instruction: 'spacing',
-      value: 8,
       views: [{
         name: 'find',
-        sizing: []
+        sizing: [],
+        spacing: {
+          margin: 'bottom',
+          value: 8
+        }
       },
       {
         name: 'findNext',
         sizing: [{
           relation: 'height',
           value: 200
-        }]
+        }],
+        spacing: {
+          margin: 'bottom'
+          value: 50
+        }
       }]
     },
     {
-      instruction: 'spacing',
-      value: 8,
       views: [{
         name: 'findNext',
-        sizing: []
+        sizing: [{
+          relation: 'height',
+          value: 200
+        }],
+        spacing: {
+          margin: 'bottom',
+          value: 50
+        }
       },
       {
         name: 'findField',
@@ -64,15 +81,28 @@ console.log(vflParser('V:|-[find]-[findNext(200)]-[findField(>=20,<=100)]-|'));
         {
           relation: 'maxHeight',
           value: 100
-        }]
+        }],
+        spacing: {
+          margin: 'bottom',
+          value: 8
+        }
       }
     },
     {
-      instruction: 'spacing',
-      value: 8,
       views: [{
         name: 'findField',
-        sizing: []
+        sizing: [{
+          relation: 'minHeight',
+          value: 20
+        },
+        {
+          relation: 'maxHeight',
+          value: 100
+        }],
+        spacing: {
+          margin: 'bottom',
+          value: 8
+        }
       },
       {
         name: 'parentView',
