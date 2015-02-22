@@ -1,0 +1,148 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.22/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/ddrew/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/nq/gvfhhgdx4fg8s2kymrhwcs5m0000gn/T/npm-10880-sXtTA0zO/1424644293530-0.4339126681443304/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/nq/gvfhhgdx4fg8s2kymrhwcs5m0000gn/T/npm-10880-sXtTA0zO/1424644293530-0.4339126681443304/tmp.tgz
+12 verbose folder .
+13 info prepublish jsvfl@0.1.2
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/ddrew/.npm/1f1177db-tar.lock
+16 silly lockFile 94953fe2-93530-0-4339126681443304-tmp-tgz tar:///var/folders/nq/gvfhhgdx4fg8s2kymrhwcs5m0000gn/T/npm-10880-sXtTA0zO/1424644293530-0.4339126681443304/tmp.tgz
+17 verbose lock tar:///var/folders/nq/gvfhhgdx4fg8s2kymrhwcs5m0000gn/T/npm-10880-sXtTA0zO/1424644293530-0.4339126681443304/tmp.tgz /Users/ddrew/.npm/94953fe2-93530-0-4339126681443304-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 94953fe2-93530-0-4339126681443304-tmp-tgz tar:///var/folders/nq/gvfhhgdx4fg8s2kymrhwcs5m0000gn/T/npm-10880-sXtTA0zO/1424644293530-0.4339126681443304/tmp.tgz
+21 silly lockFile 94953fe2-93530-0-4339126681443304-tmp-tgz tar:///var/folders/nq/gvfhhgdx4fg8s2kymrhwcs5m0000gn/T/npm-10880-sXtTA0zO/1424644293530-0.4339126681443304/tmp.tgz
+22 verbose tar unpack /var/folders/nq/gvfhhgdx4fg8s2kymrhwcs5m0000gn/T/npm-10880-sXtTA0zO/1424644293530-0.4339126681443304/tmp.tgz
+23 silly lockFile 96dd1e5e-93530-0-4339126681443304-package tar:///var/folders/nq/gvfhhgdx4fg8s2kymrhwcs5m0000gn/T/npm-10880-sXtTA0zO/1424644293530-0.4339126681443304/package
+24 verbose lock tar:///var/folders/nq/gvfhhgdx4fg8s2kymrhwcs5m0000gn/T/npm-10880-sXtTA0zO/1424644293530-0.4339126681443304/package /Users/ddrew/.npm/96dd1e5e-93530-0-4339126681443304-package.lock
+25 silly lockFile 94953fe2-93530-0-4339126681443304-tmp-tgz tar:///var/folders/nq/gvfhhgdx4fg8s2kymrhwcs5m0000gn/T/npm-10880-sXtTA0zO/1424644293530-0.4339126681443304/tmp.tgz
+26 verbose lock tar:///var/folders/nq/gvfhhgdx4fg8s2kymrhwcs5m0000gn/T/npm-10880-sXtTA0zO/1424644293530-0.4339126681443304/tmp.tgz /Users/ddrew/.npm/94953fe2-93530-0-4339126681443304-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+30 silly gunzTarPerm extractEntry .npmignore
+31 silly gunzTarPerm extractEntry README.md
+32 silly gunzTarPerm extractEntry lib/constraint.js
+33 silly gunzTarPerm modified mode [ 'lib/constraint.js', 436, 420 ]
+34 silly gunzTarPerm extractEntry lib/constraintCollection.js
+35 silly gunzTarPerm modified mode [ 'lib/constraintCollection.js', 436, 420 ]
+36 silly gunzTarPerm extractEntry lib/vflParser.js
+37 silly gunzTarPerm modified mode [ 'lib/vflParser.js', 436, 420 ]
+38 silly lockFile 96dd1e5e-93530-0-4339126681443304-package tar:///var/folders/nq/gvfhhgdx4fg8s2kymrhwcs5m0000gn/T/npm-10880-sXtTA0zO/1424644293530-0.4339126681443304/package
+39 silly lockFile 96dd1e5e-93530-0-4339126681443304-package tar:///var/folders/nq/gvfhhgdx4fg8s2kymrhwcs5m0000gn/T/npm-10880-sXtTA0zO/1424644293530-0.4339126681443304/package
+40 silly lockFile 94953fe2-93530-0-4339126681443304-tmp-tgz tar:///var/folders/nq/gvfhhgdx4fg8s2kymrhwcs5m0000gn/T/npm-10880-sXtTA0zO/1424644293530-0.4339126681443304/tmp.tgz
+41 silly lockFile 94953fe2-93530-0-4339126681443304-tmp-tgz tar:///var/folders/nq/gvfhhgdx4fg8s2kymrhwcs5m0000gn/T/npm-10880-sXtTA0zO/1424644293530-0.4339126681443304/tmp.tgz
+42 verbose tar pack [ '/Users/ddrew/.npm/jsvfl/0.1.2/package.tgz',
+42 verbose tar pack   '/var/folders/nq/gvfhhgdx4fg8s2kymrhwcs5m0000gn/T/npm-10880-sXtTA0zO/1424644293530-0.4339126681443304/package' ]
+43 verbose tarball /Users/ddrew/.npm/jsvfl/0.1.2/package.tgz
+44 verbose folder /var/folders/nq/gvfhhgdx4fg8s2kymrhwcs5m0000gn/T/npm-10880-sXtTA0zO/1424644293530-0.4339126681443304/package
+45 silly lockFile 96dd1e5e-93530-0-4339126681443304-package tar:///var/folders/nq/gvfhhgdx4fg8s2kymrhwcs5m0000gn/T/npm-10880-sXtTA0zO/1424644293530-0.4339126681443304/package
+46 verbose lock tar:///var/folders/nq/gvfhhgdx4fg8s2kymrhwcs5m0000gn/T/npm-10880-sXtTA0zO/1424644293530-0.4339126681443304/package /Users/ddrew/.npm/96dd1e5e-93530-0-4339126681443304-package.lock
+47 silly lockFile dba5d26e-drew-npm-jsvfl-0-1-2-package-tgz tar:///Users/ddrew/.npm/jsvfl/0.1.2/package.tgz
+48 verbose lock tar:///Users/ddrew/.npm/jsvfl/0.1.2/package.tgz /Users/ddrew/.npm/dba5d26e-drew-npm-jsvfl-0-1-2-package-tgz.lock
+49 silly lockFile 96dd1e5e-93530-0-4339126681443304-package tar:///var/folders/nq/gvfhhgdx4fg8s2kymrhwcs5m0000gn/T/npm-10880-sXtTA0zO/1424644293530-0.4339126681443304/package
+50 silly lockFile 96dd1e5e-93530-0-4339126681443304-package tar:///var/folders/nq/gvfhhgdx4fg8s2kymrhwcs5m0000gn/T/npm-10880-sXtTA0zO/1424644293530-0.4339126681443304/package
+51 silly lockFile dba5d26e-drew-npm-jsvfl-0-1-2-package-tgz tar:///Users/ddrew/.npm/jsvfl/0.1.2/package.tgz
+52 silly lockFile dba5d26e-drew-npm-jsvfl-0-1-2-package-tgz tar:///Users/ddrew/.npm/jsvfl/0.1.2/package.tgz
+53 silly lockFile bea950b7-rs-ddrew-npm-jsvfl-0-1-2-package /Users/ddrew/.npm/jsvfl/0.1.2/package
+54 verbose lock /Users/ddrew/.npm/jsvfl/0.1.2/package /Users/ddrew/.npm/bea950b7-rs-ddrew-npm-jsvfl-0-1-2-package.lock
+55 silly lockFile bea950b7-rs-ddrew-npm-jsvfl-0-1-2-package /Users/ddrew/.npm/jsvfl/0.1.2/package
+56 silly lockFile bea950b7-rs-ddrew-npm-jsvfl-0-1-2-package /Users/ddrew/.npm/jsvfl/0.1.2/package
+57 verbose tar unpack /Users/ddrew/.npm/jsvfl/0.1.2/package.tgz
+58 silly lockFile 22f0d0b2-rs-ddrew-npm-jsvfl-0-1-2-package tar:///Users/ddrew/.npm/jsvfl/0.1.2/package
+59 verbose lock tar:///Users/ddrew/.npm/jsvfl/0.1.2/package /Users/ddrew/.npm/22f0d0b2-rs-ddrew-npm-jsvfl-0-1-2-package.lock
+60 silly lockFile dba5d26e-drew-npm-jsvfl-0-1-2-package-tgz tar:///Users/ddrew/.npm/jsvfl/0.1.2/package.tgz
+61 verbose lock tar:///Users/ddrew/.npm/jsvfl/0.1.2/package.tgz /Users/ddrew/.npm/dba5d26e-drew-npm-jsvfl-0-1-2-package-tgz.lock
+62 silly gunzTarPerm modes [ '755', '644' ]
+63 silly gunzTarPerm extractEntry package.json
+64 silly gunzTarPerm extractEntry .npmignore
+65 silly gunzTarPerm extractEntry README.md
+66 silly gunzTarPerm extractEntry lib/constraint.js
+67 silly gunzTarPerm extractEntry lib/constraintCollection.js
+68 silly gunzTarPerm extractEntry lib/vflParser.js
+69 silly lockFile 22f0d0b2-rs-ddrew-npm-jsvfl-0-1-2-package tar:///Users/ddrew/.npm/jsvfl/0.1.2/package
+70 silly lockFile 22f0d0b2-rs-ddrew-npm-jsvfl-0-1-2-package tar:///Users/ddrew/.npm/jsvfl/0.1.2/package
+71 silly lockFile dba5d26e-drew-npm-jsvfl-0-1-2-package-tgz tar:///Users/ddrew/.npm/jsvfl/0.1.2/package.tgz
+72 silly lockFile dba5d26e-drew-npm-jsvfl-0-1-2-package-tgz tar:///Users/ddrew/.npm/jsvfl/0.1.2/package.tgz
+73 verbose chmod /Users/ddrew/.npm/jsvfl/0.1.2/package.tgz 644
+74 verbose chown /Users/ddrew/.npm/jsvfl/0.1.2/package.tgz [ 501, 20 ]
+75 silly lockFile 3a52ce78- .
+76 silly lockFile 3a52ce78- .
+77 silly publish { name: 'jsvfl',
+77 silly publish   description: 'VFL AST Parser for Javascript',
+77 silly publish   version: '0.1.2',
+77 silly publish   private: false,
+77 silly publish   author: { name: 'David Drew' },
+77 silly publish   homepage: 'http://ddrewdesign.com',
+77 silly publish   contributors:
+77 silly publish    [ { name: 'David Drew',
+77 silly publish        email: 'david.ddrew@gmail.com',
+77 silly publish        url: 'https://github.com/dclowd9901' } ],
+77 silly publish   dependencies: { uberclass: '1.x', lodash: '3.x' },
+77 silly publish   main: 'lib/vflParser',
+77 silly publish   directories: { lib: 'lib' },
+77 silly publish   keywords: [ 'vfl', 'parser' ],
+77 silly publish   licenses: [ { type: 'MIT', url: 'http://opensource.org/licenses/MIT' } ],
+77 silly publish   readme: '# JSVFL\nJavascript VFL Parser/AST Generator\n\nInstall\n=======\n\n`npm install jsvfl`\n\nUse\n===\n\n```\nvar JSVFL = require(\'jsvfl\');\n\n//...\n\nvar vflParser = new JSVFL();\n    \nconsole.log(vflParser(\'V:|-[find]-[findNext(200)]-[findField(>=20,<=100)]-|\'));\n\n/**\n  {\n    orientation: 1, // ENUM for vertical orientation\n    constraints: [{\n      instruction: \'spacing\',\n      value: 8\n      views: [{\n        name: \'superView\',\n        sizing: []\n      },\n      {\n        name: \'find\',\n        sizing: []\n      }]\n    },\n    {\n      instruction: \'spacing\',\n      value: 8,\n      views: [{\n        name: \'find\',\n        sizing: []\n      },\n      {\n        name: \'findNext\',\n        sizing: [{\n          relation: \'height\',\n          value: 200\n        }]\n      }]\n    },\n    {\n      instruction: \'spacing\',\n      value: 8,\n      views: [{\n        name: \'findNext\',\n        sizing: []\n      },\n      {\n        name: \'findField\',\n        sizing: [{\n          relation: \'minHeight\',\n          value: 20\n        },\n        {\n          relation: \'maxHeight\',\n          value: 100\n        }]\n      }\n    },\n    {\n      instruction: \'spacing\',\n      value: 8,\n      views: [{\n        name: \'findField\',\n        sizing: []\n      },\n      {\n        name: \'parentView\',\n        sizing: []\n      }]\n    }]\n  }\n */\n```\n',
+77 silly publish   readmeFilename: 'README.md',
+77 silly publish   _id: 'jsvfl@0.1.2',
+77 silly publish   dist: { shasum: 'cc6391ece4401b73012611502a7137caf1af0c72' },
+77 silly publish   _from: '.' }
+78 verbose url raw jsvfl
+79 verbose url resolving [ 'https://registry.npmjs.org/', './jsvfl' ]
+80 verbose url resolved https://registry.npmjs.org/jsvfl
+81 info trying registry request attempt 1 at 14:31:33
+82 http PUT https://registry.npmjs.org/jsvfl
+83 http 201 https://registry.npmjs.org/jsvfl
+84 verbose url raw jsvfl
+85 verbose url resolving [ 'https://registry.npmjs.org/', './jsvfl' ]
+86 verbose url resolved https://registry.npmjs.org/jsvfl
+87 info trying registry request attempt 1 at 14:31:33
+88 http GET https://registry.npmjs.org/jsvfl
+89 http 200 https://registry.npmjs.org/jsvfl
+90 verbose uploading [ 'jsvfl/-/jsvfl-0.1.2.tgz/-rev/8-ba01af824b5cd89c19492087c36a9aa0',
+90 verbose uploading   '/Users/ddrew/.npm/jsvfl/0.1.2/package.tgz' ]
+91 verbose url raw jsvfl/-/jsvfl-0.1.2.tgz/-rev/8-ba01af824b5cd89c19492087c36a9aa0
+92 verbose url resolving [ 'https://registry.npmjs.org/',
+92 verbose url resolving   './jsvfl/-/jsvfl-0.1.2.tgz/-rev/8-ba01af824b5cd89c19492087c36a9aa0' ]
+93 verbose url resolved https://registry.npmjs.org/jsvfl/-/jsvfl-0.1.2.tgz/-rev/8-ba01af824b5cd89c19492087c36a9aa0
+94 info trying registry request attempt 1 at 14:31:34
+95 http PUT https://registry.npmjs.org/jsvfl/-/jsvfl-0.1.2.tgz/-rev/8-ba01af824b5cd89c19492087c36a9aa0
+96 http 409 https://registry.npmjs.org/jsvfl/-/jsvfl-0.1.2.tgz/-rev/8-ba01af824b5cd89c19492087c36a9aa0
+97 error publish fail Cannot publish over existing version.
+97 error publish fail Update the 'version' field in package.json and try again.
+97 error publish fail
+97 error publish fail If the previous version was published in error, see:
+97 error publish fail     npm help unpublish
+97 error publish fail
+97 error publish fail To automatically increment version numbers, see:
+97 error publish fail     npm help version
+98 error System Darwin 14.3.0
+99 error command "/usr/local/Cellar/node/0.10.22/bin/node" "/usr/local/bin/npm" "publish"
+100 error cwd /Users/ddrew/dev/JSVFL
+101 error node -v v0.10.22
+102 error npm -v 1.3.14
+103 error code EPUBLISHCONFLICT
+104 verbose exit [ 1, true ]
