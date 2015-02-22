@@ -1,11 +1,13 @@
 {
   "name": "jsvfl",
   "description": "VFL AST Parser for Javascript",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "private": false,
   "author": "David Drew",
   "homepage": "http://ddrewdesign.com",
-  "contributors": [ "David Drew <david.ddrew@gmail.com> (https://github.com/dclowd9901)" ],
+  "contributors": [
+    "David Drew <david.ddrew@gmail.com> (https://github.com/dclowd9901)"
+  ],
   "dependencies": {
     "uberclass": "1.x",
     "lodash": "3.x"
@@ -14,9 +16,14 @@
   "directories": {
     "lib": "lib"
   },
-  "keywords": ["vfl", "parser"],
-  "licenses": [{
-    "type": "MIT",
-    "url": "http://opensource.org/licenses/MIT"
-  }]
+  "keywords": [
+    "vfl",
+    "parser"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ]
 }
