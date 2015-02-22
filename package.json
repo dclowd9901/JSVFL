@@ -1,7 +1,7 @@
 {
   "name": "jsvfl",
   "description": "VFL AST Parser for Javascript",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": false,
   "author": "David Drew",
   "homepage": "http://ddrewdesign.com",
